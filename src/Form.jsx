@@ -34,7 +34,7 @@ function Form() {
       setCPassword("");
       console.log(name + ", " + email + ", " + password + ", " + cPassword);
       setSubmissionText(
-        "Thank you for signing up! \nWe look forward to getting to know you!"
+        "Thank you for signing up! We look forward to getting to know you!"
       );
     }
   }
