@@ -67,6 +67,7 @@ function Form() {
           placeholder="Password"
           value={password}
           pattern="(?=.*[\d])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*])[\w!@#$%^&*]{6,16}$"
+          title="Password must contain at least one number, uppercase letter, lowercase letter, and special character."
           required
         />
         <input
